@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+body{
+	margin:0;
+	padding: 0;
+	font-family: "verdana";
+	
+	background: linear-gradient(to bottom right,rgba(177, 158, 233, 0.4) ,rgba(56, 50, 44, 0.8));
+}
+
+#content{
+	width: 980px;
+	margin: 0 auto;
+}
+
+
+nav{
+ 
+	width: 980px;
+	margin-bottom: 20px;
+	height: 70px;
+	 
+	background: #424242;
+}
+ul.menubar li{
+	height: 70px;
+	width:33%;
+	text-align: center;
+   padding-top:10px;
+   
+}
+
+a.bar{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu:hover{
+	background: grey;
+	opacity: 1;
+	
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+	background-color: grey;
+	color:white;
+}
+.dropdown-menu{
+	background: #424242;	
+}
+.dropdown-menu>li>a{
+color:white;
+}
+
+section{
+	float: left;
+	width: 780px;
+	min-height: 351px;
+	 
+}
+#banner{
+	clear: both;
+	width: 980px;
+	min-height: 350px;
+	/*ajustando la imagen a su contenedor*/
+	background-image: url(../img/banner.jpg); 
+	background-repeat:no-repeat;
+    background-size:100% 100%; 
+	
+	
+}
+
+section#articulos{
+	float: left;
+	width: 750px;
+	min-height: 600px;
+	 
+	padding: 5px;
+	margin-bottom:20px;
+}
+
+article .titulos{
+   color:#2E2E2E;
+   font-size: 60px;
+   text-shadow: 5px 5px white;
+	font-family: 'Chicle', cursive;
+}
+
+article{
+	padding:20px;
+}
+.cont-articu{
+
+	 background:whitesmoke;
+	 border-radius: 1.5px 30px ;
+	 text-align: left;
+	 padding:10px;
+	 height: 450px;
+}
+.cont-articu div{
+	 
+	width: 300px;
+	float: left;
+	text-align: justify;
+
+	padding:15px;
+	margin-left:30px;
+}
+
+#accesoAngular a{
+	
+	clear: both;
+	font-size: 15px;
+	color: #424242;
+	text-decoration: none;
+	margin-left: 30px;
+}
+#accesoAngular a:hover{
+	font-size: 30px;
+	color: #424242;
+	background:rgba(177, 158, 233, 0.4);
+}
+
+
+aside{
+	float: left;
+	width: 200px;
+  margin-left: 15px;
+	
+}
+
+footer{
+ clear:both;
+background:#424242;
+color: whitesmoke;
+
+}
+
+li{
+	list-style:none;
+}
+ 
+#publi{
+		position: relative;
+		left: 10px;
+		width: 180px;
+		height: 180px;
+		animation-name: animacion1;
+		animation-duration: 5s; 
+		animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacion1{
+	0%{
+		left: 10px;
+		width: 180px;
+		height: 180px;
+		top: 400px;
+	}
+	25%{
+		left: 10px;
+		top: 300px;
+		width: 180px;
+		height: 180px;
+	}
+	50%{
+		left: 10px;
+		top: 100px;
+		width: 180px;
+		height: 180px;
+	}
+	75%{
+		left: 10px;
+		top: 20px;
+		width: 180px;
+		height: 180px;
+	}
+
+}
