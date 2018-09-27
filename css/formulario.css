@@ -1,0 +1,82 @@
+footer{
+	float: left;
+	width: 980px;
+	height: 80px;
+  }
+  body{
+	margin:0;
+	padding: 0;
+	font-family: "verdana";
+	color: #333333;
+	background: linear-gradient(to bottom right,rgba(0,0,255,0)50%, rgba(0,0,255,0.5) ,rgba(0,0,255,1));
+  }
+/*  CSS  MENU  */
+nav{
+ 
+	/*width: 980px;*/
+	margin-bottom: 20px;
+	/*height: 70px;*/
+	 
+	background: #424242;
+}
+
+
+ul.menubar li{
+	height: 80px;
+	width:33.2%;
+	text-align: center;
+   padding-top:10px;
+   
+}
+
+a.bar{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu:hover{
+	background: grey;
+	opacity: 1;
+	
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+	background-color: grey;
+	color:white;
+}
+.dropdown-menu{
+	background: #424242;	
+}
+.dropdown-menu>li>a{
+color:white;
+}
+
+/*  FIN DE CSS MENU */
+  .borde{
+     border:1px solid black;
+  }
+
+  #formu{
+      padding:60px;
+  }
+  label{
+      margin:10px auto;
+      font-style: oblique;
+      font-weight: bold;
+
+  }
+  
+  .botonesformu{
+     
+       text-align: center;
+       margin-top:30px;
+  }
+
+ img{
+   
+     width: 350px;
+     height: 300px;
+ }
+ #myCarousel{
+  margin-top: 300px;
+ }

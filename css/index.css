@@ -12,7 +12,7 @@ body{
 	margin: 0 auto;
 }
 
-
+ /*  CSS  MENU  */
 nav{
  
 	width: 980px;
@@ -51,6 +51,7 @@ a.bar{
 color:white;
 }
 
+/*  FIN DE CSS MENU */
 section{
 	float: left;
 	width: 780px;

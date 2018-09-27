@@ -8,59 +8,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- boostrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/formulario.css">
 
 </head>
 <style>
-  footer{
-	float: left;
-	width: 980px;
-	height: 80px;
-  }
-  body{
-	margin:0;
-	padding: 0;
-	font-family: "verdana";
-	color: #333333;
-	background: linear-gradient(to bottom right,rgba(0,0,255,0)50%, rgba(0,0,255,0.5) ,rgba(0,0,255,1));
-  }
-nav{
-	
-	float: left;
-	width: 980px;
-	height: 60px;
-	background: #ffffff;
-  }
-  .borde{
-     border:1px solid black;
-  }
 
-  #formu{
-      padding:60px;
-  }
-  label{
-      margin:10px auto;
-      font-style: oblique;
-      font-weight: bold;
-
-  }
-  
-  .botonesformu{
-     
-       text-align: center;
-       margin-top:30px;
-  }
-
- img{
-   
-     width: 350px;
-     height: 300px;
- }
- #myCarousel{
-  margin-top: 300px;
- }
      </style>
 <title>formulario </title>
 </head>
@@ -70,25 +24,30 @@ nav{
   <div class="container">
 
     <div class="row">
-      <div class="col-md borde">
+     <!-- <div class="col-md ">-->
         <nav>
-          <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Inicio</a>
+          <ul class="nav nav-pills  bg-dark menubar ">
+            <li class="  menu">
+                <a class="bar" href="formulario.html">Registrarse</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tutoriales</a>
+            <li class="nav-item  dropdown  menu ">
+                    <a class="bar  dropdown-toggle " data-toggle="dropdown" href="#">Tutoriales
+                    <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="javascript.html">Javascript</a></li>
+                      <li><a href="#">Submenu 1-2</a></li>
+                      <li><a href="node.html">Submenu 1-3</a></li> 
+                    </ul>
+                  </li>
+
+            <li class="nav-item  menu">
+                <a class="bar" href="#">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">RRSS</a>
-            </li>
-          </ul>
+          
+        </ul>
 
         </nav>
-      </div>
+      <!-- </div> -->
     </div>
     <div class="row">
       <div id="formu" class="col-md-8 borde">
@@ -194,14 +153,7 @@ nav{
         </footer>
       </div>
     </div>
-    <!-- boostrap-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <!-- boostra :JQUERY -  POPER--->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
+   
 
 </body>
 
